@@ -1,5 +1,10 @@
-This is the simple api which used for CRUD operation with: user documents, student statistics, articles
+# This is the simple api which used for CRUD operation with: user documents, student statistics, articles.
 
+To run this project:
+* npm i 
+* node .
+
+```javascript
 userDocsModel = {
    firstName: string,
    lastName: string,
@@ -17,6 +22,7 @@ userDocsModel = {
    tags: Array,
 };
 
+
 studentStatsModel = {
    name: string,
    scores: [
@@ -33,8 +39,9 @@ articleModel = {
    type: string,
    tags: Array,
 };
+```
 
-UserDocs Routes:
+##UserDocs Routes:
 
 * GET    /user           returns json userDocsModel[]   
 * GET    /user/:email    returns json userDocsModel
@@ -42,12 +49,12 @@ UserDocs Routes:
 * PUT    /user/:email    returns statusCode 204
 * DELETE /user/:email    returns statusCode 204
 
-StudentStats Routes
+##StudentStats Routes
 
 * GET    /student-stat          returns json studentStatsModel[]
 * GET    /student-stat/worst    returns json studentStatsModel.name
 
-Article Router
+##Article Router
 
 * GET   /article          returns json articleModel[]
 * GET   /article/:name    returns json articleModel
