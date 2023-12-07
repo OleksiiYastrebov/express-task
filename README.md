@@ -41,7 +41,7 @@ articleModel = {
 };
 ```
 
-##UserDocs Routes:
+## UserDocs Routes:
 
 * GET    /user           returns json userDocsModel[]   
 * GET    /user/:email    returns json userDocsModel
@@ -49,12 +49,12 @@ articleModel = {
 * PUT    /user/:email    returns statusCode 204
 * DELETE /user/:email    returns statusCode 204
 
-##StudentStats Routes
+## StudentStats Routes
 
 * GET    /student-stat          returns json studentStatsModel[]
 * GET    /student-stat/worst    returns json studentStatsModel.name
 
-##Article Router
+## Article Router
 
 * GET   /article          returns json articleModel[]
 * GET   /article/:name    returns json articleModel
