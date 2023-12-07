@@ -1,0 +1,82 @@
+[
+   {
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "johndoe@example.com",
+      "password": "mysecretpassword",
+      "age": 30,
+      "address": {
+         "street": "123 Main St",
+         "city": "Anytown",
+         "state": "CA",
+         "zip": "12345",
+         "country": "USA"
+      },
+      "createdAt": "2023-05-06T08:12:34.567Z",
+      "tags": ["Sales", "Marketing"]
+   },
+   {
+      "firstName": "Alice",
+      "lastName": "Smith",
+      "email": "alicesmith@example.com",
+      "password": "anothersecretpassword",
+      "age": 28,
+      "address": {
+         "street": "456 Elm St",
+         "city": "Otherville",
+         "state": "NY",
+         "zip": "54321",
+         "country": "USA"
+      },
+      "createdAt": "2023-04-15T11:45:23.987Z",
+      "tags": ["Technology", "Innovation"]
+   },
+   {
+      "firstName": "Emily",
+      "lastName": "Johnson",
+      "email": "emilyjohnson@example.com",
+      "password": "password123",
+      "age": 35,
+      "address": {
+         "street": "789 Oak St",
+         "city": "Smalltown",
+         "state": "TX",
+         "zip": "67890",
+         "country": "USA"
+      },
+      "createdAt": "2023-06-20T15:30:45.321Z",
+      "tags": ["Finance", "Accounting"]
+   },
+   {
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "email": "michaelbrown@example.com",
+      "password": "securepassword456",
+      "age": 27,
+      "address": {
+         "street": "101 Pine St",
+         "city": "Metroville",
+         "state": "FL",
+         "zip": "13579",
+         "country": "USA"
+      },
+      "createdAt": "2023-07-12T09:18:56.789Z",
+      "tags": ["Human Resources", "Management"]
+   },
+   {
+      "firstName": "Sophia",
+      "lastName": "Wilson",
+      "email": "sophiawilson@example.com",
+      "password": "safepassword789",
+      "age": 32,
+      "address": {
+         "street": "222 Maple St",
+         "city": "Suburbia",
+         "state": "WA",
+         "zip": "97531",
+         "country": "USA"
+      },
+      "createdAt": "2023-08-25T17:22:13.456Z",
+      "tags": ["Customer Service", "Support"]
+   }
+]

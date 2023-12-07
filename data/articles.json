@@ -1,0 +1,44 @@
+[
+   {
+      "name": "Express - intro",
+      "description": "Express - text",
+      "type": "a",
+      "tags": ["JS", "Node"]
+   },
+   {
+      "name": "React - basics",
+      "description": "Introduction to React",
+      "type": "b",
+      "tags": ["JS", "React"]
+   },
+   {
+      "name": "Python - fundamentals",
+      "description": "Basic Python concepts",
+      "type": "c",
+      "tags": ["Python", "Programming"]
+   },
+   {
+      "name": "HTML5 - advanced",
+      "description": "Advanced HTML5 features",
+      "type": "d",
+      "tags": ["HTML", "Web"]
+   },
+   {
+      "name": "CSS3 - animations",
+      "description": "Creating animations with CSS3",
+      "type": "e",
+      "tags": ["CSS", "Web"]
+   },
+   {
+      "name": "Docker - getting started",
+      "description": "Docker - overview",
+      "type": "d",
+      "tags": ["DevOps", "Containers"]
+   },
+   {
+      "name": "Machine Learning - basics",
+      "description": "Introduction to ML",
+      "type": "e",
+      "tags": ["AI", "ML"]
+   }
+]

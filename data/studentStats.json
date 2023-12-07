@@ -1,0 +1,87 @@
+[
+   {
+      "name": "John Doe",
+      "scores": [
+         {
+            "score": 1.37645346357,
+            "type": "exam"
+         },
+         {
+            "score": 12.5765425326,
+            "type": "quiz"
+         },
+         {
+            "score": 35.3543536357,
+            "type": "homework"
+         }
+      ]
+   },
+   {
+      "name": "Jane Smith",
+      "scores": [
+         {
+            "score": 5.87645346357,
+            "type": "exam"
+         },
+         {
+            "score": 20.2345425326,
+            "type": "quiz"
+         },
+         {
+            "score": 28.1453536357,
+            "type": "homework"
+         }
+      ]
+   },
+   {
+      "name": "Alice Johnson",
+      "scores": [
+         {
+            "score": 8.7545346357,
+            "type": "exam"
+         },
+         {
+            "score": 15.1235425326,
+            "type": "quiz"
+         },
+         {
+            "score": 40.2343536357,
+            "type": "homework"
+         }
+      ]
+   },
+   {
+      "name": "Bob Williams",
+      "scores": [
+         {
+            "score": 2.45645346357,
+            "type": "exam"
+         },
+         {
+            "score": 18.9855425326,
+            "type": "quiz"
+         },
+         {
+            "score": 30.7653536357,
+            "type": "homework"
+         }
+      ]
+   },
+   {
+      "name": "Emily Brown",
+      "scores": [
+         {
+            "score": 4.98745346357,
+            "type": "exam"
+         },
+         {
+            "score": 22.7655425326,
+            "type": "quiz"
+         },
+         {
+            "score": 33.3453536357,
+            "type": "homework"
+         }
+      ]
+   }
+]
