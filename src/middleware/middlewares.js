@@ -39,8 +39,6 @@ function validateArticleBody(req, res, next) {
    const propBody = Object.keys(req.body);
    const propModel = Object.keys(articleModel);
 
-   console.log(propBody, propModel);
-
    if (propBody.length !== propModel.length) {
       throw new ServerErr(400, 'Invalid body');
    }

@@ -23,7 +23,11 @@ class UserDocsController {
    };
 
    static putUser = (req, res) => {
-      const searchedUser = this.searchUserByEmail(req.params.email);
+      const emailParam = req.params.email;
+      if (emailParam !== req.body.email) {
+         throw new ServerErr(400, 'Email param must be equal email property');
+      }
+      const searchedUser = this.searchUserByEmail(emailParam);
       const userData = req.body;
       if (searchedUser) {
          this.userDocsArr = this.userDocsArr.filter(

@@ -11,7 +11,7 @@ class ArticlesController {
       const article = this.searchArticleByName(req.params.name);
       if (!article) res.sendStatus(404);
       res.json(article);
-   }
+   };
 
    static postArticle = (req, res) => {
       const isExists = this.searchArticleByName(req.body.name);
@@ -23,15 +23,19 @@ class ArticlesController {
    };
 
    static putArticle = (req, res) => {
-      const searchedArticle = this.searchArticleByName(req.params.name);
+      const nameParam = req.params.name;
       const articleData = req.body;
+      if (nameParam !== articleData.name) {
+         throw new Error('Name param must be equal name property');
+      }
+      const searchedArticle = this.searchArticleByName(nameParam);
       if (searchedArticle) {
          this.articlesArr = this.articlesArr.filter(
             (article) => article.name !== searchedArticle.name
          );
          this.articlesArr.push(articleData);
       } else {
-         this.articlesArr.push(req.body);
+         this.articlesArr.push(articleData);
       }
       res.sendStatus(204);
    };
