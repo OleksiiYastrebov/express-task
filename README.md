@@ -34,22 +34,22 @@ articleModel = {
    tags: Array,
 };
 
-UserDocs Routes
+UserDocs Routes:
 
-GET    /user           returns json userDocsModel[]   
-GET    /user/:email    returns json userDocsModel
-POST   /user           returns statusCode 204 
-PUT    /user/:email    returns statusCode 204
-DELETE /user/:email    returns statusCode 204
+* GET    /user           returns json userDocsModel[]   
+* GET    /user/:email    returns json userDocsModel
+* POST   /user           returns statusCode 204 
+* PUT    /user/:email    returns statusCode 204
+* DELETE /user/:email    returns statusCode 204
 
 StudentStats Routes
 
-GET    /student-stat          returns json studentStatsModel[]
-GET    /student-stat/worst    returns json studentStatsModel.name
+* GET    /student-stat          returns json studentStatsModel[]
+* GET    /student-stat/worst    returns json studentStatsModel.name
 
 Article Router
 
-GET   /article          returns json articleModel[]
-GET   /article/:name    returns json articleModel
-POST  /article          returns statusCode 204
-PUT   /article/:name    returns statusCode 204
+* GET   /article          returns json articleModel[]
+* GET   /article/:name    returns json articleModel
+* POST  /article          returns statusCode 204
+* PUT   /article/:name    returns statusCode 204
